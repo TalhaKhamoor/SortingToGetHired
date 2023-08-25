@@ -1,4 +1,4 @@
-package SearchAlgos;
+package SearchAlgos.LinearSearch;
 
 /**
  *  Linear search class with main method that initializes array and target element and make method calls.

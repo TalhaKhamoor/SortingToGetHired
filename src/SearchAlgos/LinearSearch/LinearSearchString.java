@@ -1,4 +1,4 @@
-package SearchAlgos;
+package SearchAlgos.LinearSearch;
 
 /**
  * Linear Search String Class with main method that initializes a string and a target char.
