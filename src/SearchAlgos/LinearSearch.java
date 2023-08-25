@@ -16,7 +16,7 @@ public class LinearSearch {
         System.out.println("Element found: " + element);
     }
     static int linearSearchGetElement(int[] arr, int target){
-        if(validateArray(arr)){
+        if(validateParameters(arr)){
             for (int i : arr) {
                 if (i == target) {
                     return i;
@@ -26,7 +26,7 @@ public class LinearSearch {
         return -1;
     }
     static int linearSearchGetIndex(int[] arr, int target){
-        if (validateArray(arr)){
+        if (validateParameters(arr)){
             for (int i = 0; i < arr.length; i++){
                 if (arr[i] == target){
                     return i;
@@ -35,7 +35,7 @@ public class LinearSearch {
         }
         return -1;
     }
-    private static boolean validateArray(int[] arr) {
+    private static boolean validateParameters(int[] arr) {
         return arr.length != 0;
     }
 }
