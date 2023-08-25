@@ -1,4 +1,4 @@
-package SearchAlgos;
+package SearchAlgos.LinearSearch;
 
 /**
  * Linear Search to count number of even numbers in an array.
