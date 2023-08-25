@@ -1,8 +1,12 @@
 package SearchAlgos;
 
+/**
+ * Linear Search String Class with main method that initializes a string and a target char.
+ * Main method calls the search method which takes the two arguments are returns boolean true if target element found.
+ */
 public class LinearSearchString {
     public static void main(String[] args) {
-        String name = "";
+        String name = "Talha";
         char target = 'l';
         boolean isTargetFound = search(name, target);
         System.out.println("Target '" + target + "' was found in string '" + name + "' : " + isTargetFound);
