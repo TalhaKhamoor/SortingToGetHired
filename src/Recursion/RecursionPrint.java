@@ -2,14 +2,13 @@ package Recursion;
 
 public class RecursionPrint {
     public static void main(String[] args) {
-        print(1);
+        print(5);
     }
     private static void print(int n){
-        if(n==5){
-            System.out.println(n);
+        if(n==0){
             return;
         }
         System.out.println(n);
-        print(n+1);
+        print(n-1);
     }
 }
